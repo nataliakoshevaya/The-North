@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-57x57.png" > 
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-60x60.png" > 
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-72x72.png" > 
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-76x76.png" > 
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-114x114.png"> 
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-120x120.png" > 
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-144x144.png" > 
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-152x152.png" > 
+    <link  rel = "apple-touch-icon" href = "favicon/apple-icon-180x180.png" > 
+    <link  rel = "icon"  type = "image/png" href = "favicon/android-icon-192x192.png" > 
+    <link  rel = "icon"  type = "image/png" href = "favicon/favicon-32x32.png" > 
+    <link  rel = "icon"  type = "image/png" href = "favicon/favicon-96x96.png" > 
+    <link  rel = "icon"  type = "image/png" href = "favicon/favicon-16x16.png" > 
+    <link  rel = "manifest " href = "favicon/manifest.json" > 
+    <meta  name ="msapplication-TileColor"  content = "#ffffff" > 
+    <meta  name = "msapplication-TileImage"  content = "favicon/ms-icon-144x144.png" > 
+    <meta  name = "theme-color"  content = "#ffffff" >
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <title>The North</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <nav>
+                        <div id="menuToggle">
+                            <input type="checkbox" />
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul id="menu">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#Search">Search for tours</a></li>
+                                <li><a href="#Popular">Popular tours</a></li>
+                                <li><a href="#Daily">Daily tours</a></li>
+                                <li><a href="#Who">About us</a></li>
+                                <li><a href="#Reviews">Reviews</a></li>
+                                <li><a href="#Contacts">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="logo-mobile">
+                        <a href="/" class="logo">The North.</a>
+                    </div>
+                    <div class="header-mobile">
+                        <ul class="list list-header">
+                            <li><a href="tel:+4712482232" class="a-phone"><span class="icon-phone phone"></span>+47-124-82-232</a></li>
+                        </ul>
+                        <a href="/" class="logo logo-desktop">The North.</a>
+                        <div class="headertop-picture">
+                            <span class="icon-search search"></span>
+                            <figure>
+                                <img src="images/avatar1.jpg" alt="img">
+                            </figure>
+                            <span class="name">Elena</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <nav class="nav">
+                        <a href="/" class="nav-item">Home</a>
+                        <a href="#Search" class="nav-item">Search for tours</a>
+                        <a href="#Popular" class="nav-item">Popular tours</a>
+                        <a href="#Daily" class="nav-item">Daily tours</a>
+                        <a href="#Who" class="nav-item">About us</a>
+                        <a href="#Reviews" class="nav-item">Reviews</a>
+                        <a href="#Contacts" class="nav-item">Contacts</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="section section-hero">
+                <div class="section-background">
+                    <img src="images/img-bg.jpg" alt="img">
+                </div>
+                
+                <div class="section-foreground">
+                    <div class="container">
+                        <div class="section-content">
+                            <h1 class="section-hero-title">Norway Excursions</h1>
+                            <p class="section-hero-description">We have years of experience. 
+                                Whether you are traveling to Norway by plane, 
+                                bus or cruise ship, our excursions are available and accessible for everyone.
+                            </p>
+                            <button class="button">View all tours</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-search" id="Search">
+                <div class="container">
+                    <h2 class="section-title">Search for tours</h2>
+                    <div class="grid-search">
+                        <div class="grid-item width-select">
+                            <p class="select-description">Category</p>
+                            <div class="pure-css-select-style theme-default">
+                                <select>
+                                    <option value="s2" selected>All</option>
+                                    <option value="snowmobile">lorem</option>
+                                    <option value="deer">asdasd</option>
+                                    <option value="like">gggg</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-item width-select">
+                            <p class="select-description">Tag</p>
+                            <div class="pure-css-select-style theme-default">
+                                <select>
+                                    <option value="s2" selected>Nordfjord</option>
+                                    <option value="snowmobile">lorem</option>
+                                    <option value="deer">asdasd</option>
+                                    <option value="like">gggg</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-item width-select">
+                            <p class="select-description">Duration</p>
+                            <div class="pure-css-select-style theme-default">
+                                <select>
+                                    <option value="s2" selected>1 day</option>
+                                    <option value="snowmobile">lorem</option>
+                                    <option value="deer">asdasd</option>
+                                    <option value="like">gggg</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-item width-select">
+                            <p class="select-description">Price</p>
+                            <div class="pure-css-select-style theme-default">
+                                <select>
+                                    <option value="s2" selected>Less then 70€</option>
+                                    <option value="snowmobile">lorem</option>
+                                    <option value="deer">asdasd</option>
+                                    <option value="like">gggg</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-align">
+                        <button class="button">Find tours</button>
+                    </div>
+                </div>
+            </div>
+            <div class="section-image-bottom"></div>
+
+            <section class="section-cards" id="Popular">
+                <div class="container">
+                    <h2 class="section-title">Popular tours</h2>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <figure class="card-image">
+                                        <img src="images/Group9.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable star-rating-card-1">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews">125 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Northern Lights and Snowmobile riding</h4>
+                                        <p class="card-description">Seeing the northern lights can be hard under the bright lights</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration">Duration - 12 hours</span>
+                                        <span class="card-price">95€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <figure class="card-image">
+                                        <img src="images/nathan-lemon-71056-unsplash.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable star-rating-card-1">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews">140 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Reindeer Feeding and Lasso Throwing</h4>
+                                        <p class="card-description">Immerse yourself in Sami culture and feed a herd of 200
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration">Duration - 3 hours</span>
+                                        <span class="card-price">60€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <figure class="card-image">
+                                        <img src="images/tourists.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable star-rating-card-1">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews">97 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Self-Guided Norway roundtrip: Oslo</h4>
+                                        <p class="card-description">Experience Norway, and see Scandinavian scenery on this</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration">Duration - 10 hours</span>
+                                        <span class="card-price">80€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <figure class="card-image">
+                                        <img src="images/dogTeam.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable star-rating-card-1">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews">84 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Drive a Husky Sled in Tromso</h4>
+                                        <p class="card-description">Seeing the northern lights can be hard under the bright lights</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration">Duration - 3 hours</span>
+                                        <span class="card-price">75€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next b-next"></div>
+                    <div class="swiper-button-prev b-prev"></div>
+                    <div class="button-align">
+                        <button class="button">View all popular tours</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-more-cards" id="Daily">
+                <div class="container">
+                    <!-- <div class="more-cards"> -->
+                        <h2 class="section-title">Daily tours</h2>
+                        <div class="grid-card">
+                            <div class="width-1-4">
+                                <div class="card-2">
+                                    <figure class="card-2-image">
+                                        <img src="images/reindeer.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable stars-card-2">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews-secondary">160 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Reindeer Feeding and Lasso Throwing</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration-2">Duration - 3 hours</span>
+                                        <span class="card-price-2">55€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="width-1-4">
+                                <div class="card-2">
+                                    <figure class="card-2-image">
+                                        <img src="images/Group9.png" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable stars-card-2">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews-secondary">65 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Lapland Lyngen Alps Snowmobile Safari</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration-2">Duration - 2 hours</span>
+                                        <span class="card-price-2">60€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="width-1-4">
+                                <div class="card-2">
+                                    <figure class="card-2-image">
+                                        <img src="images/beautiful.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable stars-card-2">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews-secondary">145 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Breathtaking fjord cruise</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration-2">Duration - 4 hours</span>
+                                        <span class="card-price-2">70€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="width-1-4">
+                                <div class="card-2">
+                                    <figure class="card-2-image">
+                                        <img src="images/arcticSea.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable stars-card-2">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews-secondary">75 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Arctic Sea and Lyngen Alps</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration-2">Duration - 5 hours</span>
+                                        <span class="card-price-2">90€</span>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="width-1-4">
+                                <div class="card-2">
+                                    <figure class="card-2-image">
+                                        <img src="images/northlight.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable stars-card-2">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews-secondary">75 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Aurora Hunt Northern Lights Tour</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration-2">Duration - 6 hours</span>
+                                        <span class="card-price-2">95€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="width-1-4">
+                                <div class="card-2">
+                                    <figure class="card-2-image">
+                                        <img src="images/mountain.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable stars-card-2">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews-secondary">102 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">2-Hour Oslo Fjord Sightseeing Cruise</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration-2">Duration - 2 hours</span>
+                                        <span class="card-price-2">45€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="width-1-4">
+                                <div class="card-2">
+                                    <figure class="card-2-image">
+                                        <img src="images/team.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable stars-card-2">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews-secondary">56 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Evening Husky Sled Ride</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration-2">Duration - 2 hours</span>
+                                        <span class="card-price-2">50€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="width-1-4">
+                                <div class="card-2">
+                                    <figure class="card-2-image">
+                                        <img src="images/lightWithTourists.jpg" alt="img">
+                                    </figure>
+                                    <div class="star-rating editable stars-card-2">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        </div>
+                                    </div>
+                                    <span class="reviews-secondary">125 Reviews</span>
+                                    <div class="card-content">
+                                        <h4 class="card-title">Small Group Northern Lights</h4>
+                                    </div>
+                                    <div class="card-footer">
+                                        <span class="card-duration-2">Duration - 4 hours</span>
+                                        <span class="card-price-2">80€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-align">
+                            <button class="button">View all daily tours</button>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </section>
+
+            <section class="section-who" id="Who">
+                <div class="container">
+                    <h2 class="section-title">Who we are?</h2>
+                    <div class="grid-who-we">
+                        <div class="width-1-2-who-we">
+                            <div class="grid-card-who-we">
+                                <div class="width-1-2-img">
+                                    <figure class="section-who-img b-radius-t-l">
+                                        <img src="images/Group.jpg" alt="img">
+                                    </figure>
+                                </div>
+                                <div class="width-1-2-img">
+                                    <figure class="section-who-img b-radius-t-r">
+                                        <img src="images/Group2.jpg" alt="img">
+                                    </figure>
+                                </div>
+                                <div class="width-1-2-img">
+                                    <figure class="section-who-img b-radius-b-r">
+                                        <img src="images/Group3.jpg" alt="img">
+                                    </figure>
+                                </div>
+                                <div class="width-1-2-img">
+                                    <figure class="section-who-img b-radius-b-l">
+                                        <img src="images/Group4.jpg" alt="img">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="width-1-2-who-we">
+                            <div class="section-description">
+                                <p class="section-who-desc">Our company has years of experience in the world
+                                    of tourism, providing excursions. We take care of
+                                    our clients and all our staff is the most qualified
+                                    professionals. We try to make our clients happy and 
+                                    make each excursion unforgettable for them.
+                                </p>
+                                <p class="section-who-desc">We have the newest equipment everywhere you need it. 
+                                    We like animals and nature, that’s why our pets the 
+                                    happiest and the most beautiful.
+                                </p>
+                                <p class="section-who-desc">Let’s travel with us. We will make your life brighter.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-reviews" id="Reviews">
+                <h2 class="section-title">Reviews</h2>
+                <div class="swiper-container-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card-secondary">
+                                <div class="grid-card-2">
+                                    <div class="grid">
+                                        <figure class="card-secondary-image">
+                                            <img src="images/avatar3.png" alt="img">
+                                        </figure>
+                                        <div class="grid-item-col">
+                                            <p class="name">Brian Cooper</p>
+                                            <p class="city">New York, NY</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-rating star-rating-card-secondary editable">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="card-secondary-desc">It was the most exciting excursion in my life
+                                        I’m so grateful to the North for their service and professionalism! Thanks!
+                                    </p>
+                                </div>
+                                <div class="card-footer-2">
+                                    <a href="#" class="card-secondary-link">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-secondary">
+                                <div class="grid-card-2">
+                                    <div class="grid">
+                                        <figure class="card-secondary-image">
+                                            <img src="images/avatar2.png" alt="img">
+                                        </figure>
+                                        <div class="grid-item-col">
+                                            <p class="name">Ann Baker</p>
+                                            <p class="city">Florida, FL</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-rating star-rating-card-secondary editable">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="card-secondary-desc">I am completely satisfied with the service.
+                                        Good agency! I’m happy right now! I highly recommend it!
+                                    </p>
+                                </div>
+                                <div class="card-footer-2">
+                                    <a href="#" class="card-secondary-link">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-secondary">
+                                <div class="grid-card-2">
+                                    <div class="grid">
+                                        <figure class="card-secondary-image">
+                                            <img src="images/avatar4.png" alt="img">
+                                        </figure>
+                                        <div class="grid-item-col">
+                                            <p class="name">Jane Carter</p>
+                                            <p class="city">New Jersey, NJ</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-rating star-rating-card-secondary editable">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star star-rating-current-value">☆</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="card-secondary-desc">Cool service! Cool people! Cool animals and nature?
+                                        it was the best time ever! I recommend it!
+                                    </p>
+                                </div>
+                                <div class="card-footer-2">
+                                    <a href="#" class="card-secondary-link">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-secondary">
+                                <div class="grid-card-2">
+                                    <div class="grid">
+                                        <figure class="card-secondary-image">
+                                            <img src="images/avatar.jpg" alt="img">
+                                        </figure>
+                                        <div class="grid-item-col">
+                                            <p class="name">Lorem ipsum</p>
+                                            <p class="city">New Jersey, NJ</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-rating star-rating-card-secondary editable">
+                                        <div class="star-rating-stars">
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        <div class="star-rating-star">☆</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="card-secondary-desc">It was the most wonderful time I’ve spent ever!
+                                        My life has changed after these excursions! I like the North too much!
+                                    </p>
+                                </div>
+                                <div class="card-footer-2">
+                                    <a href="#" class="card-secondary-link">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next next-2"></div>
+                <div class="swiper-button-prev prev-2"></div>
+            </section>
+        </main>
+        <footer class="footer" id="Contacts">
+            <section class="section section-footer">
+                <div class="section-background">
+                    <img src="images/footer.jpg" alt="img">
+                </div>
+                <div class="section-overlay"></div>
+                <div class="section-foreground">
+                    <div class="container">
+                        <h3 class="section-footer-title">Subscribe to our newsletter</h3>
+                        <div class="grid-footer">
+                            <div class="grid-footer-mini">
+                                <p class="section-footer-form-desc">Enter your email</p>
+                                <input type="text" class="input" name="Subscribe" placeholder="Example@gmail.com" autocomplete="on" required>
+                            </div>
+                            <button class="button button-footer">Subscribe</button>
+                        </div>
+                        <div class="grid-footer-2">
+                            <div class="width-for-footer-list">
+                                <h5 class="list-title">Contacts</h5>
+                                <ul class="list">
+                                    <li class="list-item list-item-width"><span class="icon-location location"></span>438 Example Street, San Francisco, CA 94528, USA</li>
+                                    <li class="list-item"><span class="icon-telephone telephone"></span><a href="tel:+4712482232" class="a-phone-footer">+47-124-82-232</a></li>
+                                </ul>
+                            </div>
+                            <div class="width-for-footer-list">
+                                <h5 class="list-title list-title-social">Socials</h5>
+                                <div class="social-networks">
+                                    <span class="icon-instagram instagram"></span>
+                                    <span class="icon-twitter twitter"></span>
+                                    <span class="icon-facebook facebook"></span>
+                                </div>
+                            </div>
+                            <div class="width-for-footer-list div-footer-logo">
+                                <a href="/" class="logo logo-footer">The North.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

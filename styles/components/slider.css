@@ -1,0 +1,136 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.swiper-container,
+.swiper-container-2 {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container-2 {
+  padding: 0 10px;
+}
+.swiper-slide {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+}
+.swiper-button-next:after, 
+.swiper-button-prev:after {
+font-size: 13px;
+color: #373F55;
+background-color: white;
+padding: 12px 14px;
+border-radius: 50%;
+}
+.swiper-button-next:hover:after, 
+.swiper-button-prev:hover:after {
+background-color: #d6d6d6;
+color: #F2F7FF;
+-webkit-transition: 0.4s all;
+-o-transition: 0.4s all;
+transition: 0.4s all;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+.b-next {
+right: 3%;
+left: auto;
+}
+.b-prev {
+left: 2%;
+right: auto;
+}
+.next-2,
+.prev-2 {
+outline: none;
+}
+.swiper-pagination {
+  position: relative;
+}
+.swiper-pagination-bullet {
+    margin-right: 4px;
+} 
+@media (min-width: 700px) {
+  .swiper-pagination-2 {
+    display: none;
+  }
+  .next-2 {
+    top: 89%;
+    left: 55%;
+    display: block;
+  }
+  .prev-2 {
+    top: 89%;
+    left: 45%;
+    display: block;
+  }
+}
+@media (min-width: 1100px) {
+  .next-2 {
+    top: 80%;
+    left: 53%;
+  }
+  .prev-2 {
+    top: 80%;
+    left: 47%;
+  }
+}
+@media (min-width: 1275px) {
+  .swiper-pagination {
+    display: none;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+    outline: none;
+  }
+}
+@media (min-width: 1362px) {
+  .b-next {
+    right: 5%;
+    left: auto;
+  }
+  .b-prev {
+    left: 4%;
+    right: auto;
+  }
+}
+@media (min-width: 1440px) {
+  .b-next {
+    right: 8%;
+    left: auto;
+  }
+  .b-prev {
+    left: 7%;
+    right: auto;
+  }
+}
+@media (min-width: 1555px) {
+  .b-next {
+    right: 11%;
+    left: auto;
+  }
+  .b-prev {
+    left: 10%;
+    right: auto;
+  }
+}
+@media (min-width: 1672px) {
+  .b-next {
+    right: 13%;
+    left: auto;
+  }
+  .b-prev {
+    left: 12%;
+    right: auto;
+  }
+}

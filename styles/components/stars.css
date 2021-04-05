@@ -1,0 +1,42 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.star-rating {
+    font-size: 24px;
+  }
+  .star-rating-card-1 {
+      padding-left: 18px;
+  }
+  .stars-card-2 {
+      padding-left: 13px;
+  }
+  .star-rating-stars {
+    font-family: "Arial Unicode MS", Arial, sans-serif;
+    unicode-bidi: bidi-override;
+    color: #cccccc;
+} 
+.star-rating-star {
+    float: left;
+}    
+.star-rating-star:before {
+    content: "\2605";
+    position: absolute;
+    color: #ffb400;
+}
+
+.star-rating-current-value:before,
+.star-rating-current-value ~ .star-rating-star:before {
+    content: normal;
+}
+
+.star-rating.editable:hover .star-rating-current-value:before,
+.star-rating.editable:hover .star-rating-current-value ~ .star-rating-star:before {
+    content: "\2605";
+    position: absolute;
+    color: #ffb400;
+  }
+  
+.star-rating.editable .star-rating-star:hover,
+.star-rating.editable .star-rating-star:hover ~ .star-rating-star:before {
+    content: normal;
+    cursor: pointer;
+}

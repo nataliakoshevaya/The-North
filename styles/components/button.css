@@ -1,0 +1,64 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.button {
+    margin: 0;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 15px 0;
+    width: 100%;
+    max-width: 272px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+    background-color: #FF0032;
+    -webkit-box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+            box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+    outline: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #00d7ad;
+    border: 2px solid #ff2752;
+    -webkit-transition: 0.6s all;
+    -o-transition: 0.6s all;
+    transition: 0.6s all;
+}
+.button-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 50px 0 15px;
+}
+.button-footer {
+    width: 100%;
+    max-width: 90%;
+    height: 42px;
+    margin: 18px 15px 20px 15px;
+    padding: 8px 0;
+}
+@media (min-width: 480px) {
+    .button-footer {
+        max-width: 206px;
+        margin: 31px 15px 20px 21px;
+    }
+}
+@media (min-width: 520px) {
+    .button-footer {
+        margin: 31px 15px 20px 30px;
+    }
+}
+@media (min-width: 1060px) {
+    .button-align {
+        padding: 50px 0 75px;
+    }
+    .button-footer {
+        max-width: 206px;
+    }
+}

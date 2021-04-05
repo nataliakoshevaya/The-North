@@ -1,0 +1,50 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.list {
+    list-style-type: none;
+    position: relative;
+}
+.list-header {
+    padding-left: 16px;
+    margin: 0;
+}
+.list-title {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.list-title-social {
+    text-align: center;
+}
+.list-item {
+    font-size: 14px;
+    line-height: 20px;
+    color: #F2F7FF;
+    margin: 8px 15px 0 40px;
+}
+.telephone {
+    position: absolute;
+    left: 4%;
+  }
+.location {
+    position: absolute;
+    left: 4%;
+  }
+@media (min-width: 480px) {
+    .list-item {
+        margin: 0 15px 0 45px;
+    }
+}
+@media (min-width: 720px) {
+    .list-item {
+        margin: 8px 15px 0 30px;
+    }
+    .list-title {
+        text-align: left;
+        margin-left: 15px;
+    }
+    .list-title-social {
+        text-align: center;
+    }
+}

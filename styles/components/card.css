@@ -1,0 +1,146 @@
+.card,
+.card-2 {
+    background: #FFFFFF;
+    border-radius: 34px;
+    max-width: 258px;
+    height: 100%;
+    position:relative;
+    padding-bottom:50px;
+    -webkit-box-shadow: 2px 2px 26px rgba(10, 34, 67, 0.07);
+            box-shadow: 2px 2px 26px rgba(10, 34, 67, 0.07);
+}
+.card-2 {
+    margin: 12px auto;
+}
+.card-image > img,
+.card-2-image > img {
+    max-height: 229px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-width: 285px;
+    border-radius: 34px 34px 0 0;
+}
+.card-2-image img {
+    max-height: 173px;
+}
+.card-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #373F55;
+    text-align: left;
+}
+.card-content {
+    padding: 10px 11px 0 17px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+}
+.card-footer {
+    position: absolute;
+    bottom: 0px;
+}
+.card-footer-2 {
+    position: absolute;
+    bottom: 0px;
+    padding: 0 10px 10px 0;
+    margin-left: 60%;
+}
+.card-description {
+    font-size: 16px;
+    line-height: 20px;
+    color: #464649;
+}
+.card-duration,
+.card-duration-2 {
+    font-size: 13px;
+    line-height: 15px;
+    color: #888EA0;
+    display: inline-block;
+    padding: 15px 0 0 17px;
+}
+.card-duration {
+    padding-left: 16px;
+}
+.card-price,
+.card-price-2 {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 0 22px 15px 45px;
+    color: #373F55;
+    float: right;
+}
+.reviews,
+.reviews-secondary {
+    font-size: 13px;
+    line-height: 15px;
+    color: #888EA0;
+    display: inline-block;
+    margin: 8px 10px 0;
+}
+.reviews-secondary {
+    margin: 8px 0 0 30px;
+}
+.card-secondary {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 40px;
+    height: 100%;
+    position:relative;
+    padding-bottom: 40px;
+}
+.card-secondary-image img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+.name {
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    text-align: left;
+}
+.city {
+    font-size: 13px;
+    line-height: 18px;
+    color: #888EA0;
+    margin: 0;
+    text-align: left;
+}
+.card-secondary-desc {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 9px 0; 
+}
+.card-secondary-link {
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #0F2D47;
+}
+.card-secondary-link:hover {
+    color: red;
+}
+@media (min-width: 450px) {
+    .card-secondary {
+        width: 86%;
+    }
+    .card-footer-2 {
+        margin-left: 65%;
+    }
+}
+@media (min-width: 580px) {
+    .width-1-4 {
+        margin: 8px;
+    }
+    .name {
+        font-size: 18px;
+    }
+}
+@media (min-width: 644px) {
+    .card-secondary {
+        width: 100%;
+    }
+}

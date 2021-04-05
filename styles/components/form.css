@@ -1,0 +1,52 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.input {
+  width: 100%;
+  max-width: 90%;
+  height: 42px;
+  padding: 0 24px;
+  background-color: #F2F7FF;
+  border: 1px solid #e5e5e5;
+  border-radius: 133px;
+  margin: 0 17px;
+  font-size: 13px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.input:focus {
+  outline: none;
+  background-color: #fff;
+  color: #666;
+  border-color: #1e87f0;
+}
+.input:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  border-color: #e5e5e5;
+}
+.input::-webkit-input-placeholder {
+  color: #373F55;
+}
+.input::-moz-placeholder {
+  color: #373F55;
+}
+.input:-ms-input-placeholder {
+  color: #373F55;
+}
+.input::-ms-input-placeholder {
+  color: #373F55;
+}
+.input::placeholder {
+  color: #373F55;
+}
+@media (min-width: 480px) {
+.input {
+  max-width: 360px;
+}
+}
+@media (min-width: 950px) {
+.input {
+  min-width: 300px;
+}
+}
